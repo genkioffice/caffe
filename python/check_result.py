@@ -37,7 +37,7 @@ def main(argv):
     parser.add_argument(
         "--pretrained_model",
         default=os.path.join(pycaffe_dir,
-                "../models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel"),
+                "../examples/mnist/lenet_iter_10000.caffemodel"),
         help="Trained model weights file."
     )
     parser.add_argument(
